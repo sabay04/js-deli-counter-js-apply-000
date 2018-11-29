@@ -27,7 +27,7 @@ function currentLine(curLine){
 
     for(let i = 0; i< curLine.length; i++){
 
-      if(i === curLine.length - 1 ){ // need to minus 1 to get acurate number not array index
+      if(i === curLine.length){ // need to minus 1 to get acurate number not array index
 
      lineOfPeople += `${i+1}. ${curLine[i]}`
   }
